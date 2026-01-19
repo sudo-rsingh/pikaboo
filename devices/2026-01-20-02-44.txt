@@ -1,0 +1,325 @@
+   0 whoami
+   1 df
+   2 ls
+   3 apk update
+   4 sudo apk.udp
+   5 sudo apk update
+   6 sudo apk add openssh
+   7 rc-service sshd start
+   8 sshd
+   9 sshd start
+  10 clear
+  11 rc-service sshd start
+  12 /usr/sbin/sshd
+  13 sudo /usr/sbin/sshd
+  14 ssh root@localhost
+  15 clear
+  16 ssh user@localhost
+  17 top
+  18 clear
+  19 clear
+  20 ls
+  21 htop
+  22 apk add htop
+  23 sudo apk add htop
+  24 htop
+  25 export TERM=xterm
+  26 htop
+  27 clear
+  28 su
+  29 clear
+  30 tmux
+  31 apk add tmux
+  32 sudo apk add tmux
+  33 tmux
+  34 git
+  35 sudo apk add git
+  36 df
+  37 df -h
+  38 clear
+  39 python
+  40 python -m http.server
+  41 ip a
+  42 curl http://localhost:8000
+  43 apt http://localhost:8000
+  44 sudo apk add curl add
+  45 sudo apk add curl apt
+  46 apt http://localhost:8000
+  47 curl http://localhost:8000
+  48 iptables -L
+  49 history
+  50 sudo apk add iptables
+  51 iptables -L
+  52 sudo iptables -L
+  53 ip a | grep -E "inet "
+  54 python -m http.server 8000 --bind 0.0.0.0
+  55 npx
+  56 netstat -lntp
+  57 python -m http.server 8000 --bind 0.0.0.0
+  58 qcom-msm8953:~$ netstat -lntp
+  59 netstat: showing only processes with your user ID
+  60 Active Internet connections (only servers)
+  61 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+  62 tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -
+  63 tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN      -
+  64 tcp        0      0 :::22                   :::*                    LISTEN      -
+  65 netstat -lntp
+  66 ls
+  67 clear
+  68 ls
+  69 exit
+  70 nvim etc/ssh/sshd_config
+  71 sudo apk add nvim
+  72 sudo apk add neovim
+  73 nvim etc/ssh/sshd_config
+  74 sudo nvim etc/ssh/sshd_config
+  75 exit
+  76 busybox httpd -f -p 8000 -h .
+  77 python -m http.server 80 --bind 0.0.0.0
+  78 sudo python -m http.server 80 --bind 0.0.0.0
+  79 netstat -lntp
+  80 netstat -lnup
+  81 netstat -lntp
+  82 lsof -i -P -n
+  83 ufw
+  84 sudo apk add ufw
+  85 sudo ufw status
+  86 sudo ufw enable
+  87 sudo iptables -L
+  88 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+  89 sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+  90 sudo iptables -A INPUT -i lo -j ACCEPT
+  91 ls
+  92 reboot
+  93 sudo reboot
+  94 python
+  95 l
+  96 lw
+  97 ls
+  98 systemctl
+  99 clear
+ 100 tmux
+ 101 nvim .
+ 102 exit
+ 103 tmux
+ 104 exit
+ 105 clear
+ 106 tmux
+ 107 ls
+ 108 python -m http.server
+ 109 neofetch
+ 110 sudo apk add neofetch
+ 111 sudo apt add telebit
+ 112 sudo apk add telebit
+ 113 curl https://get.telebit.io/ | ash
+ 114 ls
+ 115 mkdir work
+ 116 cd work
+ 117 ls
+ 118 curl https://get.telebit.io/
+ 119 wget https://get.telebit.io/
+ 120 ls
+ 121 nvim .
+ 122 sh
+ 123 exit
+ 124 sh index.html
+ 125 bash
+ 126 exit
+ 127 exit
+ 128 ls
+ 129 clear
+ 130 ls -R /home/user/Applications/telebit
+ 131 ls
+ 132 find /home/user/Applications/telebit -type f -name "telebit*"
+ 133 node /home/user/Applications/telebit/bin/telebit.js status
+ 134 /home/user/Applications/telebit/bin/telebit
+ 135 sudo apk add node
+ 136 sudo apk add nodejs
+ 137 node /home/user/Applications/telebit/bin/telebit.js status
+ 138 /home/user/Applications/telebit/bin/telebit
+ 139 ls /home/user/Applications/telebit/bin
+ 140 ls /home/user/Applications/telebit
+ 141 cd /home/user/Applications/telebit
+ 142 ls
+ 143 npm
+ 144 sudo apk add npm
+ 145 npm i
+ 146 ls bin
+ 147 nvim .
+ 148 node bin/telebit.js
+ 149 ping api.telebit.cloud
+ 150 curl -v https://api.telebit.cloud
+ 151 node -v
+ 152 date
+ 153 sudo apk add bash
+ 154 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+ 155 source ~/.bashrc
+ 156 exec ash
+ 157 ls
+ 158 nvm install 16
+ 159 nvm use 16
+ 160 export NVM_DIR="$HOME/.nvm"
+ 161 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+ 162 nvm install 16
+ 163 nvm install 19
+ 164 sudo apk add python=3.11
+ 165 sudo apk add python==3.11
+ 166 sudo apk update
+ 167 sudo apk add nodejs=16.* npm
+ 168 sudo apk add nodejs(16)
+ 169 sudo apk add nodejs=16
+ 170 clear
+ 171 node -v
+ 172 # should be v16.x.x
+ 173 clear
+ 174 cd
+ 175 tmux
+ 176 ls
+ 177 npx
+ 178 npx http-server
+ 179 sudo iptables -I INPUT -p tcp --dport 8080 -j ACCEPT
+ 180 sudo iptables -L -n | grep 8080
+ 181 nmap -p 8080 192.168.0.10
+ 182 sudo apk add nmap
+ 183 nmap -p 8080 192.168.0.10
+ 184 ip a
+ 185 sudo apt add cloudflared
+ 186 sudo apk add cloudflared
+ 187 uname -m
+ 188 ls
+ 189 cd work
+ 190 ls
+ 191 wget https://github.com/cloudflare/cloudflared/releases/download/2025.11.1/cloudflared-linux-arm64
+ 192 ls
+ 193 chmod +x cloudflared-linux-arm64
+ 194 sudo cp cloudflared-linux-arm64 /usr/local/bin/cloudflared
+ 195 ls /usr/local/bin/
+ 196 cloudflared --version
+ 197 curl http://localhost:8080
+ 198 clear
+ 199 cloudflared tunnel --url http://localhost:8080
+ 200 clear
+ 201 ls
+ 202 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
+ 203 sh Miniconda3-latest-Linux-aarch64.sh
+ 204 bash Miniconda3-latest-Linux-aarch64.sh
+ 205 apk add --no-cache gcompat
+ 206 sudo apk add --no-cache gcompat
+ 207 bash Miniconda3-latest-Linux-aarch64.sh
+ 208 apk add libc6-compat
+ 209 sudo apk add libc6-compat
+ 210 bash Miniconda3-latest-Linux-aarch64.sh
+ 211 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
+ 212 bash Miniforge3-Linux-aarch64.sh
+ 213 sudo apk add micromamba
+ 214 wget https://micro.mamba.pm/api/micromamba/linux-aarch64/latest
+ 215 chmod +x micromamba
+ 216 ./micromamba shell init -s bash -p ~/micromamba
+ 217 source ~/.bashrc
+ 218 ls
+ 219 curl -Ls https://micro.mamba.pm/api/micromamba/linux-aarch64/latest | tar -xvj bin/micromamba
+ 220 ls
+ 221 micromamba
+ 222 /bin/micromamba
+ 223 eval "$(./bin/micromamba shell hook -s posix)"
+ 224 clear
+ 225 eval "$(./bin/micromamba shell hook -s posix)"
+ 226 ls
+ 227 rm ./bin/micromamba
+ 228 curl -Ls https://micro.mamba.pm/api/micromamba/linux-aarch64-musl/latest | tar -xvj bin/micromamba
+ 229 ls
+ 230 rm -rf bin
+ 231 ls
+ 232 curl -Ls https://micro.mamba.pm/api/micromamba/linux-aarch64-musl/latest
+ 233 ls
+ 234 "${SHELL}" <(curl -L https://micro.mamba.pm/install.sh)
+ 235 sudo apk add micromamba
+ 236 ls
+ 237 wget https://github.com/mamba-org/micromamba-releases/releases/download/2.5.0-1/micromamba-linux-aarch64
+ 238 ls
+ 239 micromamba-linux-aarch64
+ 240 ./micromamba-linux-aarch64
+ 241 chmod +x micromamba-linux-aarch64
+ 242 ./micromamba-linux-aarch64
+ 243 cat /etc/os-release
+ 244 ls
+ 245 python -m venv venv
+ 246 ls
+ 247 exit
+ 248 exit
+ 249 exit
+ 250 exit
+ 251 ip a
+ 252 clear
+ 253 ls
+ 254 cd work
+ 255 s
+ 256 ;s
+ 257 ls
+ 258 rm -rf *
+ 259 ls
+ 260 clear
+ 261 sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --daemon
+ 262 cp
+ 263 clear
+ 264 docker
+ 265 sudo apk add docker
+ 266 docker
+ 267 docker run hello-world
+ 268 sudo docker run hello-world
+ 269 sudo systemctl start docker
+ 270 sudo systemctl status docker
+ 271 sudo systemctl start docker
+ 272 sudo systemctl enable docker
+ 273 sudo systemctl start docker
+ 274 sudo systemctl status docker
+ 275 docker run hello-world
+ 276 sudo docker run hello-world
+ 277 sudo dockerd
+ 278 clear
+ 279 sudo journalctl -xeu docker.service --no-pager | tail -n 60
+ 280 sudo systemctl status containerd
+ 281 sudo systemctl start containerd
+ 282 sudo systemctl enable containerd
+ 283 sudo systemctl start containerd
+ 284 sudo systemctl status containerd
+ 285 which containerd
+ 286 ls -l /usr/local/bin/containerd
+ 287 ls -l /usr/bin/containerd
+ 288 sudo nvim /usr/lib/systemd/system/containerd.service
+ 289 sudo systemctl daemon-reload
+ 290 sudo systemctl restart containerd
+ 291 sudo systemctl status containerd
+ 292 sudo systemctl restart docker
+ 293 sudo docker run hello-world
+ 294 docker run -it ubuntu
+ 295 sudo docker run -it ubuntu
+ 296 clear
+ 297 nvim .
+ 298 cd
+ 299 tmux
+ 300 sudo python3 -m http.server 80
+ 301 ss -lntp | grep 80
+ 302 netstat -lntp | grep 80
+ 303 sudo nft list ruleset
+ 304 sudo nft add rule inet filter input tcp dport 80 accept
+ 305 sudo rc-service nftables save
+ 306 sudo systemctl nftables save
+ 307 sudo nano /etc/nftables.nft
+ 308 sudo nvim /etc/nftables.nft
+ 309 clear
+ 310 clear
+ 311 sudo docker run -it ubuntu
+ 312 sudo docker run -it ubuntu -w /home/ubuntu
+ 313 sudo docker run -it -w /home/ubuntu ubuntu
+ 314 docker network inspect bridge
+ 315 sudo docker network inspect bridge
+ 316 docker run --rm -it --network host ubuntu:noble bash
+ 317 sudo docker run --rm -it --network host ubuntu:noble bash
+ 318 nvim .
+ 319 history
+ 320 ls
+ 321 work
+ 322 cd work
+ 323 ls
+ 324 history > history.txt
