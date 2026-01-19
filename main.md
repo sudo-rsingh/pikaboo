@@ -1,2 +1,0 @@
-- MIUnlockTool-Arch (https://github.com/offici5l/MiUnlockTool)
-- MI account setup with phone no. and then email. *
