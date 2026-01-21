@@ -1,0 +1,19 @@
+install git
+git clone
+install wget
+install nvm
+install node
+use node
+install libatomic1 (for ubuntu)
+npm i
+install tmux
+new session tmux; npm run dev
+fetch cloudlared arm64
+chmod +x cloudflared
+mv cloudflared /usr/local/bin
+cloudflared tunnel login
+cloudflared tunnel create public-site
+cloudflared tunnel route dns public-site silinode.in
+apt install neovim
+nvim ~/.cloudflared/config.yml
+cloudflared tunnel run public-site
